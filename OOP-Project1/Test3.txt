@@ -1,0 +1,109 @@
+Apple
+2024-03-10
+2024-02-20
+Fresh Farms
+Piece
+50
+A2
+Juicy and delicious
+1.5
+
+Milk
+2023-03-05
+2022-12-15
+Dairy Co.
+Liter
+5
+Fridge
+Full-fat milk
+2.0
+
+Bread
+2021-11-20
+2021-11-10
+Baker's Delight
+Loaf
+3
+Pantry
+Whole wheat
+2.5
+
+Chicken
+2021-03-15
+2020-10-25
+Local Farms
+Kilogram
+2
+Freezer
+Organic and fresh
+8.0
+
+Yogurt
+2020-03-08
+2019-09-18
+Yummy Dairy
+Cup
+10
+Fridge
+Strawberry flavor
+1.8
+
+Toothpaste
+2019-04-01
+2018-08-05
+Oral Care Inc.
+Piece
+2
+Bathroom
+Mint flavor
+3.5
+
+Cereal
+2018-03-20
+2017-07-12
+Breakfast Co.
+Box
+1
+Pantry
+Whole grain
+4.0
+
+Orange Juice
+2017-03-25
+2016-06-22
+Citrus Fresh
+Liter
+3
+Fridge
+Pulp-free
+2.3
+
+Tomatoes
+2016-03-12
+2015-05-28
+Local Farms
+Kilogram
+4
+Vegetable Basket
+Cherry tomatoes
+3.2
+
+Shampoo
+2015-04-10
+2014-04-15
+Hair Care Ltd.
+Bottle
+1
+Bathroom
+For all hair types
+5.0
+
+Name: Apple
+Expiry Date: 2024-03-10
+Entry Date: 2024-02-20
+Manufacturer: Fresh
+Unit: Piece
+Quantity: 30
+Location: A2
+Comment: Juicy and delicious
+

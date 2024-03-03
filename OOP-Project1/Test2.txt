@@ -1,0 +1,10 @@
+
+Name: item5
+Expiry Date: 2020-12-12
+Entry Date: 2020-12-24
+Manufacturer: m4
+Unit: u7
+Quantity: 3
+Location: l2
+Comment: c1
+

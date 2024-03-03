@@ -1,0 +1,99 @@
+Name: Apple
+Expiry Date: 2024-03-10
+Entry Date: 2024-02-20
+Manufacturer: Fresh Farms
+Unit: Piece
+Quantity: 50
+Location: A2
+Comment: Juicy and delicious
+Price for Unit: 1.5
+
+Name: Milk
+Expiry Date: 2023-03-05
+Entry Date: 2022-12-15
+Manufacturer: Dairy Co.
+Unit: Liter
+Quantity: 5
+Location: Fridge
+Comment: Full-fat milk
+Price for Unit: 2.0
+
+Name: Bread
+Expiry Date: 2021-11-20
+Entry Date: 2021-11-10
+Manufacturer: Baker's Delight
+Unit: Loaf
+Quantity: 3
+Location: Pantry
+Comment: Whole wheat
+Price for Unit: 2.5
+
+Name: Chicken
+Expiry Date: 2021-03-15
+Entry Date: 2020-10-25
+Manufacturer: Local Farms
+Unit: Kilogram
+Quantity: 2
+Location: Freezer
+Comment: Organic and fresh
+Price for Unit: 8.0
+
+Name: Yogurt
+Expiry Date: 2020-03-08
+Entry Date: 2019-09-18
+Manufacturer: Yummy Dairy
+Unit: Cup
+Quantity: 10
+Location: Fridge
+Comment: Strawberry flavor
+Price for Unit: 1.8
+
+Name: Toothpaste
+Expiry Date: 2019-04-01
+Entry Date: 2018-08-05
+Manufacturer: Oral Care Inc.
+Unit: Piece
+Quantity: 2
+Location: Bathroom
+Comment: Mint flavor
+Price for Unit: 3.5
+
+Name: Cereal
+Expiry Date: 2018-03-20
+Entry Date: 2017-07-12
+Manufacturer: Breakfast Co.
+Unit: Box
+Quantity: 1
+Location: Pantry
+Comment: Whole grain
+Price for Unit: 4.0
+
+Name: Orange Juice
+Expiry Date: 2017-03-25
+Entry Date: 2016-06-22
+Manufacturer: Citrus Fresh
+Unit: Liter
+Quantity: 3
+Location: Fridge
+Comment: Pulp-free
+Price for Unit: 2.3
+
+Name: Tomatoes
+Expiry Date: 2016-03-12
+Entry Date: 2015-05-28
+Manufacturer: Local Farms
+Unit: Kilogram
+Quantity: 4
+Location: Vegetable Basket
+Comment: Cherry tomatoes
+Price for Unit: 3.2
+
+Name: Shampoo
+Expiry Date: 2015-04-10
+Entry Date: 2014-04-15
+Manufacturer: Hair Care Ltd.
+Unit: Bottle
+Quantity: 1
+Location: Bathroom
+Comment: For all hair types
+Price for Unit: 5.0

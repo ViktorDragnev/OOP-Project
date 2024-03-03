@@ -1,24 +1,21 @@
 package bg.tu_varna.b4.f22621690.Project;
 
-import java.text.ParseException;
-import java.util.Date;
-import java.text.SimpleDateFormat;
-
+import java.time.LocalDate;
 
 public class Product {
     String name;
-    Date expiryDate;
-    Date entryDate;
+    LocalDate expiryDate;
+    LocalDate entryDate;
     String manufacturer;
     String unit;
     int quantity;
     String location;
     String comment;
 
-    public Product(String name, String expiryDate, String entryDate, String manufacturer, String unit, int quantity, String location, String comment) {
+    public Product(String name, LocalDate expiryDate, LocalDate entryDate, String manufacturer, String unit, int quantity, String location, String comment) {
         this.name = name;
-        this.expiryDate = parseDate(expiryDate);
-        this.entryDate = parseDate(entryDate);
+        this.expiryDate = expiryDate;
+        this.entryDate = entryDate;
         this.manufacturer = manufacturer;
         this.unit = unit;
         this.quantity = quantity;
@@ -30,11 +27,11 @@ public class Product {
         return name;
     }
 
-    public Date getExpiryDate() {
+    public LocalDate getExpiryDate() {
         return expiryDate;
     }
 
-    public Date getEntryDate() {
+    public LocalDate getEntryDate() {
         return entryDate;
     }
 
@@ -58,15 +55,16 @@ public class Product {
         return comment;
     }
 
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setExpiryDate(Date expiryDate) {
+    public void setExpiryDate(LocalDate expiryDate) {
         this.expiryDate = expiryDate;
     }
 
-    public void setEntryDate(Date entryDate) {
+    public void setEntryDate(LocalDate entryDate) {
         this.entryDate = entryDate;
     }
 
@@ -88,15 +86,5 @@ public class Product {
 
     public void setComment(String comment) {
         this.comment = comment;
-    }
-
-    private Date parseDate(String dateString) {
-        try {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            return sdf.parse(dateString);
-        } catch (ParseException e) {
-            System.out.println("Error parsing date. Please enter the date in the format yyyy-MM-dd.");
-            return null;
-        }
     }
 }
