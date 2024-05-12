@@ -1,6 +1,6 @@
 package bg.tu_varna.b4.f22621690.Project.WerehouseCommands;
 
-import bg.tu_varna.b4.f22621690.Project.Command;
+import bg.tu_varna.b4.f22621690.Project.Models.Command;
 import bg.tu_varna.b4.f22621690.Project.Models.Activity;
 import bg.tu_varna.b4.f22621690.Project.Models.Log;
 import bg.tu_varna.b4.f22621690.Project.Models.Product;
@@ -72,18 +72,19 @@ public class RemoveProductCommand implements Command {
     }
 
     private List<Product> getMatchingProducts(String productName) {
-        List<Product> matchingProducts = new ArrayList<>();
+        List<Product> mP = new ArrayList<>();
+
         for (Product p : Warehouse.productList) {
             if (p.getName().equalsIgnoreCase(productName)) {
-                matchingProducts.add(p);
+                mP.add(p);
             }
         }
-        return matchingProducts;
+        return mP;
     }
 
-    private double getTotalAvailableQuantity(List<Product> matchingProducts) {
+    private double getTotalAvailableQuantity(List<Product> mP1) {
         double totalAvailableQuantity = 0;
-        for (Product product : matchingProducts) {
+        for (Product product : mP1) {
             totalAvailableQuantity += product.getQuantity();
         }
         return totalAvailableQuantity;
